@@ -1,8 +1,8 @@
 {
-    "homepage": "https://kripken.github.io/emscripten-site/",
-    "version": "nightly",
+    "homepage": "https://emscripten.org/",
+    "version": "git",
     "license": "MIT",
-    "url": "https://github.com/juj/emsdk/archive/master.zip",
+    "url": "https://github.com/emscripten-core/emsdk/archive/master.zip",
     "extract_dir": "emsdk-master",
     "bin": [
         "emsdk.ps1",
