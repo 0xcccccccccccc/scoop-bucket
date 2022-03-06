@@ -1,0 +1,10 @@
+{
+    "homepage": "https://docs.microsoft.com/zh-cn/visualstudio/debugger/using-spy-increment",
+    "version": "git",
+    "license": "none",
+    "url": "https://github.com/westoncampbell/SpyPlusPlus/archive/refs/heads/master.zip",
+    "extract_dir": "spyxx-master",
+    "bin": [
+        "spy14.00.25420/spyxx.exe"
+    ]
+}
