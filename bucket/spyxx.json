@@ -3,7 +3,7 @@
     "version": "git",
     "license": "none",
     "url": "https://github.com/westoncampbell/SpyPlusPlus/archive/refs/heads/master.zip",
-    "extract_dir": "spyxx-master",
+    "extract_dir": "SpyPlusPlus-master",
     "bin": [
         "spy14.00.25420/spyxx.exe"
     ]
