@@ -4,8 +4,13 @@
     "license": "none",
     "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.1/cytoscape-windows-3.9.1.zip",
     "extract_dir": "cytoscape-windows-3.9.1",
-    "post_install": "$dir\\gen_vmoptions.bat",
+    "post_install": "Invoke-ExternalCommand \"$dir\\gen_vmoptions.bat\" -RunAs | Out-Null",
     "bin": [
         "cytoscape.bat"
     ]
+    "uninstaller": {
+        "script": [
+            "Remove-Item '$dir' -Recurse -Force"
+        ]
+    },
 }
