@@ -1,0 +1,10 @@
+{
+    "homepage": "https://cytoscape.org",
+    "version": "git",
+    "license": "none",
+    "url": "https://github.com/cytoscape/cytoscape/releases/download/3.9.1/cytoscape-windows-3.9.1.zip",
+    "extract_dir": "cytoscape-windows-3.9.1",
+    "bin": [
+        "cytoscape.bat"
+    ]
+}
