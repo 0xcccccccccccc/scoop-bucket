@@ -7,10 +7,10 @@
     "post_install": "Invoke-ExternalCommand \"$dir\\gen_vmoptions.bat\" -RunAs | Out-Null",
     "bin": [
         "cytoscape.bat"
-    ]
+    ],
     "uninstaller": {
         "script": [
             "Remove-Item '$dir' -Recurse -Force"
         ]
-    },
+    }
 }
